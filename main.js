@@ -1,22 +1,25 @@
 'use strict'
-
-let product = 'hat';
-let productCount = 3;
-let productCategory = 'cloths';
-let productPrice = 1250;
-
-console.log('product: ',product);
-
-console.log(productCount * productPrice);
-
-product = 'watch';
-productCount = 5;
-productCategory = 'accessories';
-productPrice = 10299;
+{
+const product = 'hat';
+const productCount = 3;
+const productCategory = 'cloths';
+const productPrice = 1250;
 
 console.log('product: ',product);
 
 console.log(productCount * productPrice);
+}
+
+{
+const product = 'watch';
+const productCount = 5;
+const productCategory = 'accessories';
+const productPrice = 10299;
+
+console.log('product: ',product);
+
+console.log(productCount * productPrice);
+}
 
 
 
