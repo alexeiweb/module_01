@@ -5,7 +5,7 @@ const productCount = 3;
 const productCategory = 'Одежда';
 const productPrice = 1250;
 
-console.log('product: ',product);
+console.log('product: ', product);
 
 console.log(productCount * productPrice);
 
@@ -28,10 +28,10 @@ const productPrice = 10299;
   const productCategory = prompt('Категория товара');
   const productPrice = +prompt('Цена товара');
   
-  //console.log('Наименование товара: ', product);
-  //console.log('Количество товара: ', productCount);
-  //console.log('Категория товара: ', productCategory);
-  //console.log('Цена товара: ', productPrice);
+  console.log('Наименование товара: ', product);
+  console.log('Количество товара: ', productCount);
+  console.log('Категория товара: ', productCategory);
+  console.log('Цена товара: ', productPrice);
   
   console.log(typeof product);
   console.log(typeof productCount);
