@@ -1,4 +1,5 @@
 'use strict'
+
 {
   const rain = Math.round(Math.random());
   console.log(rain);
